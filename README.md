@@ -8,29 +8,29 @@ It analyzes user feedback as Positive, Negative, or Neutral using TextBlob and s
 
 ---
 
-📌 Features
+ Features
 
-✔ Very simple and beginner-friendly Python code
+ Very simple and beginner-friendly Python code
 
-✔ Clean Tkinter GUI with one input box
+ Clean Tkinter GUI with one input box
 
-✔ Uses SQLite (no installation needed)
+ Uses SQLite (no installation needed)
 
-✔ Stores feedback + sentiment in feedback.db
+ Stores feedback + sentiment in feedback.db
 
-✔ Uses TextBlob for easy sentiment analysis
+ Uses TextBlob for easy sentiment analysis
 
-✔ Runs perfectly on Jupyter Notebook, VS Code, PyCharm
+ Runs perfectly on Jupyter Notebook, VS Code, PyCharm
 
-✔ No ML training required
+ No ML training required
 
 
 
 ---
 
-📂 Project Structure
+ Project Structure
 
-📁 Sentiment-Analyzer-SQLite/
+ Sentiment-Analyzer-SQLite/
 │── sentiment_app.py           # Main application
 │── feedback.db                # Auto-created SQLite database
 │── README.md                  # Documentation
@@ -40,7 +40,7 @@ It analyzes user feedback as Positive, Negative, or Neutral using TextBlob and s
 
 ---
 
-🛠 Technologies Used
+ Technologies Used
 
 Component	Technology
 
@@ -54,7 +54,7 @@ Platform	Works on all OS (Windows/Linux/Mac)
 
 ---
 
-🗄 SQLite Database Setup
+ SQLite Database Setup
 
 No setup required!
 
@@ -78,7 +78,7 @@ CREATE TABLE IF NOT EXISTS feedback (
 
 ---
 
-🧠 Sentiment Analysis Logic
+ Sentiment Analysis Logic
 
 We use TextBlob polarity score:
 
@@ -94,7 +94,7 @@ Perfect for beginners because it's very easy and accurate enough.
 
 ---
 
-▶ How to Run
+ How to Run
 
 1. Install dependencies
 
@@ -111,7 +111,7 @@ python sentiment_app.py
 
 ---
 
-🧩 How the App Works
+ How the App Works
 
 1. User enters feedback in the input box
 
@@ -132,7 +132,7 @@ python sentiment_app.py
 
 ---
 
-🧩 Flowchart
+ Flowchart
 
 (Attach your generated flowchart here; text version below)
 
@@ -153,7 +153,7 @@ End
 
 ---
 
-📘 Example Input & Output
+ Example Input & Output
 
 Input Feedback	Sentiment
 
@@ -165,7 +165,7 @@ Input Feedback	Sentiment
 
 ---
 
-🎯 Why SQLite Version Is More Beginner Friendly?
+ Why SQLite Version Is More Beginner Friendly?
 
 No database installation
 
@@ -181,7 +181,7 @@ Perfect for college mini-projects
 
 ---
 
-🚀 Future Enhancements (Optional)
+ Future Enhancements (Optional)
 
 Add a history page to view all saved feedback
 
